@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script defer src="js/app.min.js"></script>
     <title>Главная</title>
 </head>
@@ -47,6 +50,7 @@
                 </section>
                 <section class="section section-estetic section-video">
                     <video
+                        data-aos="fade"
                         poster="/files/videos/estetic/poster.png"
                         id="player"
                         autoplay="true"
@@ -59,34 +63,34 @@
                     </video>
                     <div class="wrapper">
                         <header class="block-header center white">
-                            <h2>ЕДИНАЯ ЭСТЕТИКА. ЗАВОРАЖИВАЮЩАЯ ПРИВЛЕКАТЕЛЬНОСТЬ.</h2>
-                            <p>Премиальные материалы, элегантные формы, рифленые поверхности: тщательно выверенное высокоточное оборудование из коллекции Onyx создаст единый завораживающий стиль для вашей зоны кардиотренировок.</p>
+                            <h2 data-aos="fade-up" data-aos-delay="800">ЕДИНАЯ ЭСТЕТИКА. ЗАВОРАЖИВАЮЩАЯ ПРИВЛЕКАТЕЛЬНОСТЬ.</h2>
+                            <p data-aos="fade-up" data-aos-delay="1000">Премиальные материалы, элегантные формы, рифленые поверхности: тщательно выверенное высокоточное оборудование из коллекции Onyx создаст единый завораживающий стиль для вашей зоны кардиотренировок.</p>
                         </header>
                     </div>
                 </section>
                 <section class="section section-standart">
                     <div class="wrapper">
                         <header class="block-header white center">
-                            <h2>ПРЕДСТАВЛЯЕМ НОВЫЙ СТАНДАРТ</h2>
+                            <h2 data-aos="fade-up">ПРЕДСТАВЛЯЕМ НОВЫЙ СТАНДАРТ</h2>
                         </header>
                         <div class="section-standart__images">
-                            <h3>Уникальные акценты</h3>
+                            <h3 data-aos="fade-up" data-aos-delay="100">Уникальные акценты</h3>
                             <div class="section-standart__row reverse">
-                                <div class="section-standart__image">
+                                <div data-aos="fade" data-aos-delay="200" class="section-standart__image">
                                     <img src="img/standart/2.jpg" alt="">
                                 </div>
-                                <div class="section-standart__image">
+                                <div data-aos="fade" data-aos-delay="400" class="section-standart__image">
                                     <img src="img/standart/1.jpg" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="section-standart__images">
-                            <h3>Элегантность и плавность</h3>
+                            <h3 data-aos="fade-up" data-aos-delay="100">Элегантность и плавность</h3>
                             <div class="section-standart__row">
-                                <div class="section-standart__image">
+                                <div data-aos="fade" data-aos-delay="200" class="section-standart__image">
                                     <img src="img/standart/3.jpg" alt="">
                                 </div>
-                                <div class="section-standart__image">
+                                <div data-aos="fade" data-aos-delay="400" class="section-standart__image">
                                     <img src="img/standart/4.jpg" alt="">
                                 </div>
                             </div>
@@ -98,17 +102,18 @@
                         <header class="block-header white center">
                             <h2>ЭКСКЛЮЗИВНЫЙ, ЗАВОРАЖИВАЮЩИЙ, УНИКАЛЬНЫЙ</h2>
                         </header>
-                        <div class="section-options__image">
-                            <img src="img/options/bg.jpg" alt="">
-                        </div>
                     </div>
+                    <div class="section-options__image">
+                        <img src="img/options/bg.jpg" alt="">
+                    </div>
+                    <div style="height: 30vh;"></div>
                 </section>
                 <section class="section section-connected section-image-bg">
                     <img src="img/connected/bg.png" alt="">
                     <div class="wrapper">
                         <header class="block-header center">
-                            <h2>CONNECTED SOLUTIONS. ПРИВИЛЕГИЯ УНИКАЛЬНОСТИ.</h2>
-                            <p>Предел мечтаний. Наши технологии основаны на надежной, открытой платформе для создания индивидуальных условий для тренировок, которые повышают лояльность клиентов, укрепляют приверженность бренду и выводят ваш бизнес на новый уровень. Ваш успех — наш приоритет.</p>
+                            <h2 data-aos="fade">CONNECTED SOLUTIONS. ПРИВИЛЕГИЯ УНИКАЛЬНОСТИ.</h2>
+                            <p data-aos="fade" data-aos-delay="300">Предел мечтаний. Наши технологии основаны на надежной, открытой платформе для создания индивидуальных условий для тренировок, которые повышают лояльность клиентов, укрепляют приверженность бренду и выводят ваш бизнес на новый уровень. Ваш успех — наш приоритет.</p>
                         </header>
                         <main class="section-connected__row">
                             <div class="item">
