@@ -1,0 +1,519 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script defer src="js/app.min.js"></script>
+    <title>horizontal-bicycle</title>
+</head>
+
+    <body>
+        <div class="wrapper-new">
+            <header class="header">
+    <div class="header__tabs">
+        <div class="wrapper">
+            <div class="header__tabs-row">
+                <div class="header__tabs-text">
+                    <h1>Эллипс с изменяемой траекторией шага Onyx Ascent Trainer</h1>
+                </div>
+                <div class="header__tabs-info">
+                    <div class="header__tabs-links">
+                        <button>Обзор</button>
+                        <button>Характеристики</button>
+                    </div>
+                    <div class="header__tabs-btn">
+                        Задайте вопрос
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+            <main class="content header__tabs-tabs">
+                <div class="header__tabs-tab">
+                    <section class="section section-main section-onyx section-video section-fullscreen">
+                        <video
+                            poster="/files/videos/horizontal-bicycle/intro/poster.png"
+                            id="player"
+                            autoplay="true"
+                            muted="muted"
+                            webkit-playsinline="true"
+                            playsinline="true"
+                        >
+                            <source src="/files/videos/horizontal-bicycle/intro/1.mp4" type="video/mp4">
+                            <source src="/files/videos/horizontal-bicycle/intro/1.webm" type="video/webm">
+                        </video>
+                    </section>
+                    <section class="section section-brake">
+                        <img src="img/standart/horizontal-bicycle/bg.jpg" alt="">
+                        <div class="wrapper">
+                            <header class="block-header white center">
+                                <h2 data-aos="fade-up">ВТОРОЕ ДЫХАНИЕ НА ПУТИ К НЕВЕРОЯТНЫМ ОЩУЩЕНИЯМ</h2>
+                                <p data-aos="fade-up" data-aos-delay="400">Уникальный велотренажер с горизонтальной посадкой Onyx Recumbent Cycle является образцом продуманного дизайна и эргономичного совершенства.</p>
+                            </header>
+                            <main class="section-brake__row">
+                                <div data-aos="fade-up" class="section-brake__image row">
+                                    <img src="img/brake/horizontal-bicycle/1.jpg" alt="">
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="400" class="section-brake__image column">
+                                    <img src="img/brake/horizontal-bicycle/2.jpg" alt="">
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="800" class="section-brake__image column transform">
+                                    <img src="img/brake/horizontal-bicycle/3.jpg" alt="">
+                                </div>
+                            </main>
+                        </div>
+                    </section>
+                    <section class="section section-black">
+                        <div class="wrapper">
+                            <header class="block-header white center">
+                                <h2 data-aos="fade-up">
+                                    ПЛАВНОСТЬ ЛИНИЙ И ЭЛЕГАНТНОСТЬ. ВЕРШИНА ИЗЫСКАННОСТИ.
+                                </h2>
+                            </header>
+                        </div>
+                    </section>
+                    <section data-aos="fade-up" data-aos-delay="400" class="section section-video section-fullscreen">
+                        <video
+                            poster="/files/videos/horizontal-bicycle/fullscreen/2/poster.png"
+                            id="player"
+                            autoplay
+                            muted
+                            webkit-playsinline="true"
+                            playsinline="true"
+                            loop
+                        >
+                            <source src="/files/videos/horizontal-bicycle/fullscreen/2/2.mp4" type="video/mp4">
+                            <source src="/files/videos/horizontal-bicycle/fullscreen/2/2.webm" type="video/webm">
+                        </video>
+                    </section>
+                    <section class="section section-technology-big">
+                        <img src="img/technology-big/bg/1.jpg" alt="">
+                        <div class="wrapper">
+                            <header class="block-header yellow small center">
+                                <h2 data-aos="fade-up">Рифленые поверхности</h2>
+                                <p data-aos="fade-up" data-aos-delay="400">Тщательно продуманные текстуры поверхностей велоэргометра Onyx Upright Cycle создают непревзойденный стиль и обеспечивают поддержание тренажера в безупречном состоянии.</p>
+                            </header>
+                            <main class="section-technology-big__video">
+                                <video
+                                    poster="/files/videos/vertical-bicycle/fullscreen/1/poster.png"
+                                    id="player"
+                                    autoplay="true"
+                                    muted="muted"
+                                    webkit-playsinline="true"
+                                    playsinline="true"
+                                    data-aos="fade-up"
+                                    data-aos-delay="400"
+                                >
+                                    <source src="/files/videos/vertical-bicycle/fullscreen/1/1.mp4" type="video/mp4">
+                                    <source src="/files/videos/vertical-bicycle/fullscreen/1/1.webm" type="video/webm">
+                                </video>
+                            </main>
+                        </div>
+                    </section>
+                    <section class="section section-technology-big">
+                        <img src="img/technology-big/bg/2.jpg" alt="">
+                        <div class="wrapper">
+                            <header class="block-header yellow small center">
+                                <h2 data-aos="fade-up">Подсветка</h2>
+                                <p data-aos="fade-up" data-aos-delay="400">Мягкое акцентное освещение создает необыкновенное и запоминающееся впечатление.</p>
+                            </header>
+                            <main class="section-technology-big__video">
+                                <video
+                                    poster="/files/videos/vertical-bicycle/fullscreen/2/poster.png"
+                                    id="player"
+                                    autoplay="true"
+                                    muted="muted"
+                                    webkit-playsinline="true"
+                                    playsinline="true"
+                                    data-aos="fade-up"
+                                    data-aos-delay="400"
+                                >
+                                    <source src="/files/videos/vertical-bicycle/fullscreen/2/2.mp4" type="video/mp4">
+                                    <source src="/files/videos/vertical-bicycle/fullscreen/2/2.webm" type="video/webm">
+                                </video>
+                            </main>
+                        </div>
+                    </section>
+                    <section class="section section-brake reverse">
+                        <img src="img/standart/horizontal-bicycle/bg-2.jpg" alt="">
+                        <div class="wrapper">
+                            <header class="block-header white center">
+                                <h2 data-aos="fade-up">КОМФОРТ И ЛЕГКОСТЬ. НАСТОЯЩИЙ ШЕДЕВР.</h2>
+                                <p data-aos="fade-up" data-aos-delay="400">Безграничные возможности регулировки и совершенные эргономичные формы повторяют движения тела человека.</p>
+                            </header>
+                            <main class="section-brake__row">
+                                <div data-aos="fade-up" class="section-brake__image column">
+                                    <img src="img/brake/horizontal-bicycle/4.jpg" alt="">
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="400" class="section-brake__image row">
+                                    <img src="img/brake/horizontal-bicycle/5.jpg" alt="">
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="800" class="section-brake__image row transform">
+                                    <img src="img/brake/horizontal-bicycle/6.jpg" alt="">
+                                </div>
+                            </main>
+                        </div>
+                    </section>
+                    <section class="section section-technology-big">
+                        <img src="img/technology-big/bg/3.jpg" alt="">
+                        <div class="wrapper">
+                            <header class="block-header yellow small center">
+                                <h2 data-aos="fade-up">Экран, притягивающий взгляды</h2>
+                                <p data-aos="fade-up" data-aos-delay="400">Сделайте увлекательным каждый этап тренировки. Яркий сенсорный экран с диагональю 22" поможет продемонстрировать решимость и амбициозные цели спортсменов.</p>
+                            </header>
+                            <main class="section-technology-big__video">
+                                <video
+                                    poster="/files/videos/horizontal-bicycle/fullscreen/3/poster.png"
+                                    id="player"
+                                    autoplay="true"
+                                    muted="muted"
+                                    webkit-playsinline="true"
+                                    playsinline="true"
+                                    data-aos="fade-up"
+                                    data-aos-delay="400"
+                                >
+                                    <source src="/files/videos/horizontal-bicycle/fullscreen/3/3.mp4" type="video/mp4">
+                                    <source src="/files/videos/horizontal-bicycle/fullscreen/3/3.webm" type="video/webm">
+                                </video>
+                            </main>
+                        </div>
+                    </section>
+                    <section class="section section-technology-big">
+                        <img src="img/technology-big/bg/4.jpg" alt="">
+                        <div class="wrapper">
+                            <header class="block-header yellow small center">
+                                <h2 data-aos="fade-up">Интерактивное сенсорное управление</h2>
+                                <p data-aos="fade-up" data-aos-delay="400">Приятные на ощупь, интерактивные сенсорные элементы управления выводят использование технологий на новый уровень.</p>
+                            </header>
+                            <main class="section-technology-big__video">
+                                <video
+                                    poster="/files/videos/horizontal-bicycle/fullscreen/4/poster.png"
+                                    id="player"
+                                    autoplay="true"
+                                    muted="muted"
+                                    webkit-playsinline="true"
+                                    playsinline="true"
+                                    data-aos="fade-up"
+                                    data-aos-delay="400"
+                                >
+                                    <source src="/files/videos/horizontal-bicycle/fullscreen/4/4.mp4" type="video/mp4">
+                                    <source src="/files/videos/horizontal-bicycle/fullscreen/4/4.webm" type="video/webm">
+                                </video>
+                            </main>
+                        </div>
+                    </section>
+                    <section class="section section-tabs section-black">
+                        <div class="wrapper">
+                            <header class="block-header white center">
+                                <h2 data-aos="fade-up">
+                                    СОВЕРШЕНСТВО, КОТОРОЕ ОСТАНЕТСЯ С ВАМИ
+                                    <br>
+                                    НАДОЛГО
+                                </h2>
+                                <p data-aos="fade-up" data-aos-delay="400">Простота обслуживания позволяет легко объединить исключительные качества с ожидаемыми характеристиками.</p>
+                            </header>
+                            <main class="section-tabs__row">
+                                <div data-aos="fade-up" data-aos-delay="400" class="section-tabs__img">
+                                    <img src="img/tabs/10.jpg" alt="">
+                                    <img src="img/tabs/11.jpg" alt="">
+                                </div>
+                                <nav class="section-tabs__links">
+                                    <button>Идеальная доступность</button>
+                                    <button>Необыкновенная легкость перемещения</button>
+                                </nav>
+                                <div class="section-tabs__texts">
+                                    <p>Продуманные панели для обслуживания предоставляют мгновенный доступ к внутренним компонентам без использования инструментов.</p>
+                                    <p>Встроенные самоориентирующиеся колеса с возможностью блокировки позволяют переместить тренажер для быстрого выполнения технического обслуживания.</p>
+                                </div>
+                            </main>
+                        </div>
+                    </section>
+                    <section class="section section-tabs section-tabs-mobile section-black">
+                        <div class="wrapper">
+                            <header class="block-header white center">
+                                <h2 data-aos="fade-up">
+                                    СОВЕРШЕНСТВО, КОТОРОЕ ОСТАНЕТСЯ С ВАМИ
+                                    <br>
+                                    НАДОЛГО
+                                </h2>
+                                <p data-aos="fade-up" data-aos-delay="400">Запатентованная конструкция подвески обеспечивает плавное и равномерное прохождение через каждый эллипс.</p>
+                            </header>
+                            <main class="section-tabs__row">
+                                <div data-aos="fade-up" class="section-tabs__img">
+                                    <img src="img/tabs/10.jpg" alt="">
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="200" class="section-tabs__texts">
+                                    <p>Продуманные панели для обслуживания предоставляют мгновенный доступ к внутренним компонентам без использования инструментов.</p>
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="400" class="section-tabs__img">
+                                    <img src="img/tabs/11.jpg" alt="">
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="200" class="section-tabs__texts">
+                                    <p>Встроенные самоориентирующиеся колеса с возможностью блокировки позволяют переместить тренажер для быстрого выполнения технического обслуживания.</p>
+                                </div>
+                            </main>
+                        </div>
+                    </section>
+                    <section class="section section-feel section-black">
+                        <img src="img/feel/bg.jpg" alt="">
+                        <div class="wrapper">
+                            <header class="block-header white center">
+                                <h2 data-aos="fade-up">
+                                    НОВЫЕ ОЩУЩЕНИЯ
+                                </h2>
+                                <p data-aos="fade-up" data-aos-delay="400">Onyx — для тех, кто согласен только на самое лучшее.</p>
+                            </header>
+                            <img
+                                data-aos="fade-up"
+                                data-aos-delay="600"
+                                src="img/feel/4.png"
+                                alt=""
+                                class="section-feel__img"
+                            >
+                            <a
+                                href="#"
+                                class="btn"
+                                data-aos="fade-up"
+                                data-aos-delay="400"
+                            >Подробнее</a>
+                        </div>
+                    </section>
+                    <section class="section section-equipment">
+                        <div class="wrapper">
+                            <header class="block-header center">
+                                <h2 data-aos="fade-up" class="aos-init aos-animate">ВЛАДЕНИЕ ОБОРУДОВАНИЕМ БЕЗ ПРОБЛЕМ</h2>
+                            </header>
+                            <main class="section-equipment__row">
+                                <div class="section-equipment__item">
+                                    <div data-aos="fade-right" data-aos-delay="400" class="section-equipment__img">
+                                        <img src="img/equipment/1.jpg" alt="">
+                                    </div>
+                                    <div class="section-equipment__text">
+                                        <h3 data-aos="fade-down" data-aos-delay="600">Connected Solutions</h3>
+                                        <p data-aos="fade-down" data-aos-delay="800">Предел мечтаний. Наши технологии основаны на надежной, открытой платформе для создания индивидуальных условий для тренировок — столь же уникальных, как и ваш бренд.</p>
+                                        <h3 data-aos="fade-down" data-aos-delay="1000">Facility Concierge</h3>
+                                        <p data-aos="fade-down" data-aos-delay="1200">Для максимальной эффективности тренировок уделяйте внимание каждому клиенту. Клиенты непременно оценят это. Наша эксклюзивная функция вызова администратора позволит пользователю одним касанием связаться с вашими специалистами.</p>
+                                    </div>
+                                </div>
+                            </main>
+                        </div>
+                    </section>
+                </div>
+                <div class="header__tabs-tab pb-60">
+                    <div class="wrapper">
+                        <section class="section section-specifications section-black">
+                            <div class="section-specifications__title">
+                                <h2>Дисплей</h2>
+                            </div>
+                            <div class="section-specifications__info">
+                                <img src="img/svgicons/specifications/1.svg" alt="">
+                                <div class="section-specifications__text">
+                                    <h3>Дисплей</h3>
+                                    <p>Емкостный сенсорный ЖК-дисплей 56 см/22 дюйма</p>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="section section-specifications section-black">
+                            <div class="section-specifications__title">
+                                <h2>Программы и совместимость</h2>
+                            </div>
+                            <div class="section-specifications__info">
+                                <div class="section-specifications__text">
+                                    <h3>Дисплей</h3>
+                                    <section class="icons">
+                                        <div class="icon">
+                                            <img src="img/specifications/1.png" alt="">
+                                            <p>Начать</p>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="img/specifications/2.png" alt="">
+                                            <p>Ручной режим</p>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="img/specifications/3.png" alt="">
+                                            <p>Sprint 8</p>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="img/specifications/4.png" alt="">
+                                            <p>Virtual Active</p>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="img/specifications/5.png" alt="">
+                                            <p>Целевая ЧСС</p>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="img/specifications/6.png" alt="">
+                                            <p>Интервальная тренировка</p>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="img/specifications/7.png" alt="">
+                                            <p>Сжигание жира</p>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="img/specifications/8.png" alt="">
+                                            <p>Холмы</p>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="img/specifications/9.png" alt="">
+                                            <p>Целевая тренировка</p>
+                                        </div>
+                                        <div class="icon">
+                                            <img src="img/specifications/10.png" alt="">
+                                            <p>Фитнес-тесты</p>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Языки</h3>
+                                    <p>Английский, немецкий, французский, итальянский, испанский, голландский, португальский, китайский (упрощенный), китайский (традиционный), японский, корейский, шведский, финский, русский, арабский, турецкий, польский, валлийский, баскский, вьетнамский, сомалийский, датский, тайский, малайский, каталанский</p>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="section section-specifications section-black">
+                            <div class="section-specifications__title">
+                                <h2>Настройки ТВ</h2>
+                            </div>
+                            <div class="section-specifications__info">
+                                <div class="section-specifications__text">
+                                    <h3>Аналоговое телевидение</h3>
+                                    <p>NTSC, PAL, SECAM</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Цифровое телевидение</h3>
+                                    <p>ATSC 1.0, QAM-B, ISDB-T, ISDB-Tb, DVB-C/S/S2/T/T2</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>IPTV</h3>
+                                    <p>Контент: MPEG2/H262, AVC/H264 / Протоколы: UDP, RTSP, HTTP, HTTPS</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Совместимость с Pro:Idiom</h3>
+                                    <p>Опция; IPTV и коакс.</p>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="section section-specifications section-black">
+                            <div class="section-specifications__title">
+                                <h2>Wi-Fi и возможности подключения</h2>
+                            </div>
+                            <div class="section-specifications__info">
+                                <div class="section-specifications__text">
+                                    <h3>Wi-Fi</h3>
+                                    <p>Да</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Bluetooth</h3>
+                                    <p>Да; наушники, ЧСС, FTMS</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>ANT+</h3>
+                                    <p>Да; ЧСС</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Беспроводной вход RFID</h3>
+                                    <p>Да</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Подходит для iPhone, iPad, iPod</h3>
+                                    <p>Да; только iPhone и iPad</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Порт USB</h3>
+                                    <p>Да; зарядка устройства, носитель устройства, обновления ПО</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Беспроводная зарядка (Qi)</h3>
+                                    <p>Да</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Контактный и телеметрический передатчики ЧСС</h3>
+                                    <p>Да</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Подключение Ethernet</h3>
+                                    <p>Да</p>
+                                </div>
+                                <div class="download">
+                                    <a href="#">
+                                        <img src="img/download/1.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/download/2.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="section section-specifications section-black">
+                            <div class="section-specifications__title">
+                                <h2>Рама</h2>
+                            </div>
+                            <div class="section-specifications__info">
+                                <img src="img/svgicons/specifications/2.svg" alt="">
+                                <div class="section-specifications__text">
+                                    <h3>Размеры в собранном виде</h3>
+                                    <p>186 x 74 x 180 см / 73,2 x 29,2 x 70,7 дюйма</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Система регулирования уровня нагрузки</h3>
+                                    <p>Бесщеточный генератор</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Мин. мощность, Вт</h3>
+                                    <p>5 Вт</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Мин. скорость, об/мин</h3>
+                                    <p>10 об/мин</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Длина шага</h3>
+                                    <p>51–61 см/20–24 дюйма (регулируется)</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Высота ступени</h3>
+                                    <p>27,4 см/10,8 дюйма</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Расстояние между педалями</h3>
+                                    <p>7,5 см/3 дюйма</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Диапазон мощности</h3>
+                                    <p>5–650 Вт</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Service Caster</h3>
+                                    <p>Да</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Регулировка сверху вниз</h3>
+                                    <p>Да</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Макс. вес пользователя</h3>
+                                    <p>182 кг/400 фунтов</p>
+                                </div>
+                                <div class="section-specifications__text">
+                                    <h3>Требования к источнику питания</h3>
+                                    <p>100–240 В — 50/60 Гц переменного тока</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer"></footer>
+
+        </div>
+    </body>
+</html>
